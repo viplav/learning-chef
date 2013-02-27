@@ -1,0 +1,15 @@
+{
+  "description": " my first role - base for all",
+  "run_list": [
+    "recipe[omnibus_updater]"
+  ],
+  "default_attributes": {
+  },
+  "name": "base_role",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "env_run_lists": {
+  },
+  "override_attributes": {
+  }
+}
